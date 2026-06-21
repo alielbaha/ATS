@@ -108,28 +108,6 @@ Full test results: [TEST_RESULTS_ANALYSIS.md](./TEST_RESULTS_ANALYSIS.md)
 
 ## Usage
 
-### Python API
-
-```python
-from src.matching_engine import MatchingEngine
-import json
-
-# Load data
-with open('data/jobs.json') as f:
-    jobs = json.load(f)
-
-# Initialize engine
-engine = MatchingEngine()
-
-# Find matches
-matches = engine.find_matches(jobs[0]['job_id'], top_k=10)
-
-# Results with explanations
-for match in matches:
-    print(f"{match['name']}: {match['final_score']:.2f}")
-    print(f"  Reasoning: {match['explanation']}")
-```
-
 ### Web Interface
 
 Navigate through 4 modules:
