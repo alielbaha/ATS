@@ -2,7 +2,7 @@
 
 > Academic Project: École Centrale Casablanca (2025-2026) in partnership with Forvis Mazars  
 
-Note : Developed as part of my final year project. Source code was published publicly after the project concluded. 
+### Note : Developed as part of my final year project. Source code was published publicly after the project concluded. 
 ---
 
 ## Overview
